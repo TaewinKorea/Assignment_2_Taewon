@@ -1,0 +1,36 @@
+---
+title: "Assignment_2_Taewon"
+author: "Taewon"
+date: '2021 10 2 '
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Assignment 2
+
+This is the **assignment 2** for R programming class and includes the following items;
+*1. Make a data frame from the air quality dataset*
+*2. In the same chunk clean the dataset from NA values*
+*3. Knit the RMarkdown file and make a PDF file*
+*4. Save your RMarkdown and PDF files and commit them*
+*5. Push the  RMarkdown and PDF files to the repository*
+*6. Check your GitHub and your repository*
+*7. Submit the link of your public repository to the i-class assignment 2*
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
